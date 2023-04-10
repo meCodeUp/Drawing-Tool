@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+    margin: 0
+}
+canvas {
+    background-color: #EFEFEF;
+    border-bottom: thin #333 solid;
+    width: 100%;
+    max-height: 515px
+}
+header {
+    background-color: #333;
+    display: block;
+    width: 100%
+}
+header h1 {
+    color: #fff;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+button {
+    font-size: 20px;
+    font-weight: bold;
+    font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    height:3em;
+    width: 3em;
+    line-height: 2em;
+    border: 1px solid;
+    border-radius: 8px;
+    margin: .2em 1em 0;
+    background-color: #FFF3D5
+}
+button:hover{
+    background-color: #E7DDC2
+}
+#app {
+    width: 100%;
+    height: auto
+}
+#ui {
+    width: 100%
+}
+#singleLine, #closedForm, #clearCanvas {
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-indent:-9999px;
+}
+#singleLine {
+    background-image: url(../images/icons/singleLine.gif);
+}
+#closedForm {
+    background-image: url(../images/icons/closedForm.gif);
+}
+#clearCanvas {
+    background-image: url(../images/icons/clearCanvas.gif);
+}
+#version{font-family:"Courier New",Courier,monospace;font-size:9px;padding:10px 5px}#version a:link{color:#000;text-decoration:none;
